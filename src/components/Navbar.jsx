@@ -56,7 +56,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed w-full z-50 transition-all duration-400" style={navbarStyle}>
+    <nav className="w-full z-50 transition-all duration-400" style={navbarStyle}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-3">
           <Link to="/" className="flex items-center group">
